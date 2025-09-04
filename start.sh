@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NIC_NAME="eth0"
-NIC_PCI="19ae:00:02.0"
+NIC_PCI="17dc:00:02.0"
 
 # Get NIC state
 STATE=$(cat /sys/class/net/$NIC_NAME/operstate)
